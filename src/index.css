@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#root{
+    height: 100vh;
+}
+
+:root {
+    --color-white-100: rgba(255, 255, 255, 1);
+    --color-white-70: rgba(255, 255, 255, 0.7);
+    --color-white-50: rgba(255, 255, 255, 0.5);
+
+    --color-light-blue: #01B4E4;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000102;
+}
+
+.content-error{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000102;
+}
+
+.error{
+    font-size: 200px;
+}
+
+.ai-gradient {
+    background: radial-gradient(240.93% 224.55% at 167.82% -57.76%, #2A1699 0%, #47E3FF 26.92%, #00CAC0 51.44%, #1A1DBC 92.79%);;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: #00CAC0;
+}
+
+.texto {
+    font-size: 32px;
+    color: #FFF;
+}
+
+
+button {
+    border: none;
+    background: none;
+}
+
+/* 1. Tamanho da barra (largura para vertical, altura para horizontal) */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* 2. O fundo da barra (Track) */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 10px;
+} */
+
+/* 3. A parte que a gente arrasta (Thumb) */
+/* ::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 10px;
+  border: 2px solid #f1f1f1;
+ } /* Cria um espaçamento visual */
+
+
+/* 4. Efeito quando passa o mouse */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */

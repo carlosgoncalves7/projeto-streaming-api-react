@@ -4,12 +4,13 @@ import './App.css'
 
 import NavBar from './components/NavBar';
 import { Tvcomponent } from './components/SvgComponents';
+const token = import.meta.env.VITE_KEY_TOKEN
 
 export const options = {
   method: 'GET',
   headers: {
     accept: 'aplication/json',
-    authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1MDA3NWNmNDgyMjM1MTI4MTQ2MTNjMjVmZGRkYjk3ZSIsIm5iZiI6MTc3NzMxMTMxMS40MDcsInN1YiI6IjY5ZWY5ZTRmNDk5NTQ4MzVmMjc0NDQzMiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6YaNclXxLMxuD0KtUXWPEpRnbzpZF3Bp-PSCMbJXcjM'
+    authorization: `Bearer ${token}`
   }
 }
 
